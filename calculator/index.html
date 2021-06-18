@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet"href="style.css">
+    <script type="text/javascript" src="app.js">
+    
+    </script>
+</head>
+<body>
+    <center>
+        <h1>A simple Calculator</h1>
+   <div width="50%">
+<label>OP1<input type="text" id="OP1"></label>
+<br/><br/><br/>
+<label>OP2<input type="text" id="OP2"></label>
+<br/><br/><br/>
+<label>RESULT<input type="text" id="output"></label>
+<br/><br/>
+   </div> 
+<br/>
+   <div width="50%">
+       <input type="button" value="+" onclick="operate(this.id)" id="add">
+       <input type="button" value="-" onclick="operate(this.id)" id="sub">
+       <input type="button" value="*" onclick="operate(this.id)" id="mul">
+       <input type="button" value="/" onclick="operate(this.id)" id="div">
+
+   </div>
+</center>
+</body>
+</html>

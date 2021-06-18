@@ -1,0 +1,17 @@
+h1{
+    color: chocolate;
+}
+
+label{
+    color: black;
+    background-color: rgb(230, 89, 25);
+    padding: 8px;
+}
+
+input[type="button"]{
+    color: black;
+    background-color: rgb(252, 113, 38);
+    padding: 6px;
+    font-size: 24px;
+}
+
